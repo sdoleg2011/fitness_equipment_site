@@ -1,6 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+}
 
+.header_nav_panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A1A25;
+
+}
+.equipments_list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.equipments_list li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.header_main_image_block {
+background-color: #E9EAEF;
+}
+
+.header_image {
+    position: relative;
+}
+
+.header_main_text {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
 }
