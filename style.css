@@ -7,6 +7,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    margin: 0 auto;
+}
+
+/* HEADER */
 .header_nav_panel {
     display: flex;
     justify-content: space-between;
@@ -14,32 +19,89 @@
     background-color: #1A1A25;
 
 }
+
 .equipments_list {
     display: flex;
     list-style: none;
     gap: 1.5rem;
 }
 
-.equipments_list li>a {
+.equipments_list li > a {
     text-decoration: none;
     color: white;
     font-size: 14px;
 }
 
-.header_main_image_block {
-background-color: #E9EAEF;
+.header_main_block {
+    background-color: #E9EAEF;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
 }
 
-.header_image {
-    position: relative;
+.header_main_text_block {
+    width: 400px;
+
+}
+
+.header_text {
+    font-size: 34px;
+    font-weight: bold;
+    color: #F53B49;
+    margin-bottom: 20px;
 }
 
 .header_main_text {
-    position: absolute;
 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
+}
+
+.header_image {
+    padding-left: 00px;
+}
+
+/* MAIN */
+
+.main_page {
+}
+
+.equipment_home {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.equipment_home_main_text {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.equipment_home_list_block {
+    margin-top: 20px;
+}
+
+.equipment_home_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipment_home_items_list {
+    width: 330px;
+    height: 200px;
+    background: #E9EAEF;
+    border-radius: 10px;
+    position: relative;
+}
+.equipment_home_items_text {
+    position: absolute;
 }
