@@ -80,6 +80,9 @@ body {
 .equipment_home_main_text {
     font-weight: bold;
     font-size: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+
 }
 
 .equipment_home_list_block {
@@ -102,6 +105,125 @@ body {
     border-radius: 10px;
     position: relative;
 }
+
+.equipment_home_items_list:first-child {
+    width: 330px;
+    height: 200px;
+    background: linear-gradient(90deg, #282932 0%, #646671 100%);
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+
+.equipment_home_items_img {
+    position: absolute;
+    width: 330px;
+    height: 200px;
+}
+
 .equipment_home_items_text {
     position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.button_categories {
+    margin-top: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    padding: 12px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.button_categories:hover {
+    color: white;
+    background-color: red;
+}
+
+.button_categories:active {
+    color: white;
+    background-color: #a80000;
+}
+
+
+/* FITNESS */
+
+.fitness_club {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fitness_home_main_text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+
+}
+
+.fitness_home_list_block {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.fitness_home_items_list {
+    width: 330px;
+    height: 200px;
+    background: #E9EAEF;
+    border-radius: 10px;
+    position: relative;
+}
+
+.fitness_home_items_list:first-child {
+    width: 330px;
+    height: 200px;
+    background: linear-gradient(90deg, #282932 0%, #646671 100%);
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+
+.fitness_home_items_img {
+    position: absolute;
+    width: 330px;
+    height: 200px;
+}
+
+.fitness_home_items_text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* ACTIONS */
+
+.promotion {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.promotion_home_main_text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+
 }
