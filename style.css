@@ -35,7 +35,7 @@ body {
 .header_main_block {
     background-color: #E9EAEF;
     display: flex;
-
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 15rem;
@@ -327,6 +327,7 @@ body {
 .ideas_banner {
     margin-top: 40px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 3rem;
@@ -335,7 +336,7 @@ body {
 /* BRANDS */
 
 .brands {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .brands_main_text {
@@ -343,6 +344,7 @@ body {
     font-size: 30px;
     margin-right: auto;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .brands_list {
@@ -352,6 +354,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    padding-top: 50px;
 }
 
 /* ABOUT COMPANY */
@@ -369,6 +372,7 @@ body {
 
 .map_text_block {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
