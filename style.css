@@ -23,6 +23,7 @@ body {
 
 .equipments_list {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 1.5rem;
 }
