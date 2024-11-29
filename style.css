@@ -130,10 +130,11 @@ body {
 }
 
 .button_categories {
+    font-weight: bold;
     margin-top: 30px;
-    border: 1px solid red;
+    border: 1px solid #F53B49;
     border-radius: 5px;
-    color: red;
+    color: #F53B49;
     padding: 12px;
     cursor: pointer;
     margin-right: auto;
@@ -142,7 +143,7 @@ body {
 
 .button_categories:hover {
     color: white;
-    background-color: red;
+    background-color: #F53B49;
 }
 
 .button_categories:active {
@@ -211,19 +212,290 @@ body {
     padding-left: 10px;
 }
 
-/* ACTIONS */
+/* PROMOTION */
 
 .promotion {
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.promotion_home_main_text {
+
+.promotion_main_text {
     font-weight: bold;
     font-size: 30px;
     margin-right: auto;
     margin-left: 30px;
 
+}
+
+/* CARD */
+
+.promotion_card_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.promotion_card_item {
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+}
+
+.promotion_card_item_img {
+    width: 300px;
+    height: 300px;
+}
+
+.promotion_card_item_name {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.promotion_card_item_rating {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.promotion_card_item_price {
+    font-weight: bold;
+}
+
+.price_block {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.original_price {
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+/*PROMOTION BUTTON*/
+.promotion_card_item_button {
+    font-weight: bold;
+    border: 1px solid #F53B49;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 30px;
+    background-color: #F53B49;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.promotion_card_item_button:hover {
+    background-color: #ff0013;
+}
+
+.promotion_card_item_button:active {
+    background-color: #ef3441;
+}
+
+/* IDEAS*/
+.ideas {
+    background-color: #1A1A25;
+    padding: 50px 0;
+}
+
+.ideas_main_text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    color: white
+}
+
+.ideas_banner {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/* BRANDS */
+
+.brands {
+    margin-top: 20px;
+}
+
+.brands_main_text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.brands_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/* ABOUT COMPANY */
+.about_company {
+    margin-top: 20px;
+
+}
+
+.about_company_main_text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.map_text_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_company_text_block {
+    margin-top: 200px;
+    width: 572px;
+    height: 655px;
+}
+
+.about_company_title {
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about_company_par {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* NEWS */
+.news {
+margin-top: 30px;
+}
+
+.news_main_text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.news_list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.news_list_item {
+    width: 315px;
+    height: 440px;
+}
+.news_list_item>a {
+    text-decoration: none;
+}
+
+.news_item_main_text {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #384255;
+}
+
+.news_item_text {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #384255;
+}
+
+.news_item_date {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+/* FOOTER*/
+
+.footer_page {
+    background-color: #1A1A25;
+    padding: 100px 0;
+}
+.services_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+.services_list {
+    list-style: none;
+}
+
+.services_item_main_text {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.services_item_text {
+    color: #858FA4;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.politics {
+    color: #858FA4;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.socials_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 100px;
+}
+
+.icons_list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+}
+
+.payment_list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
