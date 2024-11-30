@@ -528,7 +528,7 @@ body {
 }
 
 .burger_simbol {
-    font-size: 80px;
+    font-size: 50px;
     color: white;
 }
 
@@ -536,6 +536,50 @@ body {
     display: none;
 }
 
+
+/* PHONE_US */
+
+.phone_us {
+    padding: 100px 0;
+
+}
+
+.phone_us_main_text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.phone_us_form_block {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#name, #email,#phone {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.phone_us_label {
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.phone_us_button {
+    font-weight: bold;
+    border: 1px solid #F53B49;
+    border-radius: 5px;
+    color: #F53B49;
+    padding: 12px;
+    cursor: pointer;
+    margin-left: 30px;
+}
 
 @media only screen and (max-width: 1170px) {
 
@@ -563,9 +607,6 @@ body {
 
     }
 
-    .hamburger {
-        font-size: 74px;
-    }
 
     .show {
         display: none;
@@ -584,9 +625,7 @@ body {
         display: none;
     }
 
-    .header_logo {
-        display: none;
-    }
+
     .banner_item {
         width: 300px;
     }
@@ -596,6 +635,7 @@ body {
         width: 372px;
         height: 655px;
     }
+
     .header_image {
         display: none;
     }
