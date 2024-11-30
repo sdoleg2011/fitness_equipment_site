@@ -581,7 +581,7 @@ body {
     margin-left: 30px;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1070px) {
 
     .equipments_list {
         display: none; /* Меню скрыто */
@@ -639,6 +639,15 @@ body {
     .header_image {
         display: none;
     }
+    .phone_us_form_block {
+        flex-direction: column;
+    }
+
+   .phone_us_label, .phone_us_button {
+        margin-top: 20px;
+       margin-left: 0;
+    }
+
 }
 
 
